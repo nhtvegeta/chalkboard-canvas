@@ -4,7 +4,7 @@
 ### Ghi chú Bảng đen Vô hạn • Realistic Chalk Shader • 360° Rotation • Multi-Platform
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Android APK](https://img.shields.io/badge/Android-Download%20APK-emerald.svg?logo=android)](https://github.com)
+[![Android APK](https://img.shields.io/badge/Android-Download%20APK-emerald.svg?logo=android)](https://github.com/nhtvegeta/app/releases)
 [![Platform](https://img.shields.io/badge/Platform-Web%20%7C%20PC%20%7C%20Android-blue.svg)](#-trải-nghiệm-trên-các-nền-tảng)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.5-3178C6?logo=typescript)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-18-61DAFB?logo=react)](https://react.dev/)
@@ -78,8 +78,8 @@ Chạy trực tiếp trên trình duyệt máy tính của bạn (Windows / macO
 
 ```bash
 # 1. Clone mã nguồn về máy
-git clone https://github.com/<your-username>/chalkboard-canvas.git
-cd chalkboard-canvas
+git clone https://github.com/nhtvegeta/app.git
+cd app
 
 # 2. Cài đặt thư viện dependencies
 npm install
@@ -99,7 +99,7 @@ npm run build
 
 ### 2. 📱 Bản Android (Cài đặt trực tiếp)
 
-* Bạn có thể tải trực tiếp file cài đặt **Release APK** từ mục [Releases](https://github.com) của repository này.
+* Bạn có thể tải trực tiếp file cài đặt **Release APK** từ mục [Releases](https://github.com/nhtvegeta/app/releases) của repository này.
 * Hoặc tự đóng gói mã nguồn thành file APK trên máy tính:
 ```bash
 # Đồng bộ web assets sang Android
@@ -157,7 +157,7 @@ npx cap open android
   <img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" height="48" alt="PayPal">
 </a>
 &nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://github.com/sponsors" target="_blank">
+<a href="https://github.com/sponsors/nhtvegeta" target="_blank">
   <img src="https://img.shields.io/badge/Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" height="48" alt="GitHub Sponsors">
 </a>
 
