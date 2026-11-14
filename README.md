@@ -139,26 +139,26 @@ npx cap open android
 
 <div align="center">
 
-### 🇻🇳 Dành cho cộng đồng Việt Nam (VietQR / Ngân hàng / MoMo)
+### 🇻🇳 Dành cho cộng đồng Việt Nam (Vietcombank / VietQR)
 
-| Ngân hàng Quân Đội (MB Bank) | Ví điện tử MoMo |
-| :---: | :---: |
-| **STK:** `0988888888`<br/>**Chủ TK:** `CHALKBOARD CREATOR`<br/>**Nội dung:** `Donate Chalkboard` | **Số điện thoại:** `0988888888`<br/>**Tên:** `CHALKBOARD CREATOR`<br/>**Nội dung:** `Donate Chalkboard` |
+<img src="https://img.vietqr.io/image/vietcombank-9353704302-compact2.png?amount=&addInfo=Donate%20Chalkboard&accountName=NGUYEN%20HUU%20TRUNG" width="220" alt="VietQR Vietcombank" style="border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);" />
+
+<br/>
+
+| Ngân hàng TMCP Ngoại thương Việt Nam (Vietcombank) |
+| :---: |
+| **Số tài khoản:** `9353704302`<br/>**Chủ tài khoản:** `NGUYỄN HỮU TRUNG`<br/>**Nội dung chuyển khoản:** `Donate Chalkboard` |
 
 ---
 
-### 🌍 International Supporters
+### 🌍 International Supporters (PayPal)
 
-<a href="https://www.buymeacoffee.com" target="_blank">
-  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="180">
-</a>
-&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://paypal.me" target="_blank">
-  <img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" height="48" alt="PayPal">
+<a href="https://paypal.me/nhtvegeta" target="_blank">
+  <img src="https://img.shields.io/badge/PayPal-Donate%20via%20PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" height="46" alt="PayPal nhtvegeta">
 </a>
 &nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://github.com/sponsors/nhtvegeta" target="_blank">
-  <img src="https://img.shields.io/badge/Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" height="48" alt="GitHub Sponsors">
+  <img src="https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" height="46" alt="GitHub Sponsors">
 </a>
 
 </div>
