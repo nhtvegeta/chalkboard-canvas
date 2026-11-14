@@ -1,7 +1,6 @@
 import React, { useRef, useState } from 'react';
 import type { Engine } from '../engine/Engine';
 import { useI18n } from '../i18n/I18nContext';
-import { DonateModal } from './DonateModal';
 import {
   Maximize2,
   Grid,
@@ -16,8 +15,7 @@ import {
   Globe,
   Save,
   FilePlus2,
-  Menu,
-  Heart
+  Menu
 } from 'lucide-react';
 
 interface Props {
@@ -32,7 +30,6 @@ export const TopBar: React.FC<Props> = ({ engine, onToggleSidebar, sidebarOpen, 
   const [showMenu, setShowMenu] = useState(false);
   const [showLangMenu, setShowLangMenu] = useState(false);
   const [showHelp, setShowHelp] = useState(false);
-  const [showDonate, setShowDonate] = useState(false);
   const fileImportRef = useRef<HTMLInputElement>(null);
 
   const zoomPercent = Math.round(engine.cam.z * 100);
@@ -242,18 +239,6 @@ export const TopBar: React.FC<Props> = ({ engine, onToggleSidebar, sidebarOpen, 
                   </div>
                 </button>
 
-                {/* Ủng hộ tác giả (Donate) */}
-                <button
-                  onClick={() => setShowDonate(true)}
-                  className="flex items-center gap-2.5 px-3 py-2 rounded-xl hover:bg-rose-500/15 text-rose-300 text-left transition-colors"
-                >
-                  <Heart className="w-4 h-4 text-rose-400 fill-rose-400/30" />
-                  <div>
-                    <div className="font-semibold text-rose-300">Ủng hộ tác giả ☕</div>
-                    <div className="text-[10px] text-slate-400">Tiếp sức phát triển dự án</div>
-                  </div>
-                </button>
-
                 <div className="h-px bg-white/10 my-0.5" />
 
                 {/* Xóa trắng bảng */}
@@ -333,9 +318,6 @@ export const TopBar: React.FC<Props> = ({ engine, onToggleSidebar, sidebarOpen, 
           </div>
         </div>
       )}
-
-      {/* Hộp thoại Ủng hộ tác giả (Donate) */}
-      <DonateModal isOpen={showDonate} onClose={() => setShowDonate(false)} />
     </>
   );
 };
