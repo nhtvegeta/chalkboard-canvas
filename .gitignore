@@ -1,0 +1,45 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Production build outputs
+dist
+build
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Sensitive Credentials & Signing Keys (DO NOT COMMIT)
+*.keystore
+*.jks
+keystore-info.txt
+
+# Release binaries (Upload to GitHub Releases instead of git history)
+*.apk
+*.aab
+*-mapping.txt
+
+# Android local environment & build caches
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/capacitor-cordova-android-plugins/build/
+
+# IDE & Editor files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS metadata
+.DS_Store
+Thumbs.db

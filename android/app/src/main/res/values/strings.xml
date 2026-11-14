@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Chalkboard</string>
+    <string name="title_activity_main">Chalkboard</string>
+    <string name="package_name">com.chalkboard.canvas</string>
+    <string name="custom_url_scheme">com.chalkboard.canvas</string>
+</resources>
